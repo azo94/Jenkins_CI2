@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1652143757,,"wq"
+|2,0,1652146319,,"wq"
+:q
+|2,0,1652144177,,"q"
 
 # Search String History (newest to oldest):
 
@@ -23,18 +25,100 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	pipeline {
+	    agent any
+	
+	    stages {
+	        stage('Build') {
+	            steps {
+	                sh 'jenkins/make.sh' 
+	            }
+	        }
+	    }
+	}
+|3,1,1,1,11,0,1652146293,"pipeline {","    agent any","","    stages {","        stage('Build') {","            steps {","                sh 'jenkins/make.sh' ","            }","        }","    }","}"
+"2	LINE	0
+	                //archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true //
+|3,0,2,1,1,0,1652144184,"                //archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true //"
 
 # File marks:
-'0  9  12  ~/jenkins/Jenkinsfile
-|4,48,9,12,1652143757,"~/jenkins/Jenkinsfile"
-'1  1  14  ~/html/test.html
-|4,49,1,14,1652081947,"~/html/test.html"
+'0  11  42  ~/jenkins/Jenkinsfile
+|4,48,11,42,1652146319,"~/jenkins/Jenkinsfile"
+'1  1  12  ~/jenkins/Jenkinsfile
+|4,49,1,12,1652144186,"~/jenkins/Jenkinsfile"
+'2  8  12  ~/jenkins/Jenkinsfile
+|4,50,8,12,1652144186,"~/jenkins/Jenkinsfile"
+'3  5  0  ~/jenkins/make.sh
+|4,51,5,0,1652144177,"~/jenkins/make.sh"
+'4  1  12  ~/jenkins/Jenkinsfile
+|4,52,1,12,1652143757,"~/jenkins/Jenkinsfile"
+'5  9  12  ~/jenkins/Jenkinsfile
+|4,53,9,12,1652143757,"~/jenkins/Jenkinsfile"
+'6  1  14  ~/html/test.html
+|4,54,1,14,1652081947,"~/html/test.html"
 
 # Jumplist (newest first):
+-'  11  42  ~/jenkins/Jenkinsfile
+|4,39,11,42,1652146319,"~/jenkins/Jenkinsfile"
+-'  1  12  ~/jenkins/Jenkinsfile
+|4,39,1,12,1652146286,"~/jenkins/Jenkinsfile"
+-'  8  12  ~/jenkins/Jenkinsfile
+|4,39,8,12,1652144186,"~/jenkins/Jenkinsfile"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  1  0  ~/jenkins/make.sh
+|4,39,1,0,1652144175,"~/jenkins/make.sh"
+-'  1  0  ~/jenkins/make.sh
+|4,39,1,0,1652144175,"~/jenkins/make.sh"
+-'  1  0  ~/jenkins/make.sh
+|4,39,1,0,1652144175,"~/jenkins/make.sh"
+-'  1  0  ~/jenkins/make.sh
+|4,39,1,0,1652144175,"~/jenkins/make.sh"
+-'  9  12  ~/jenkins/Jenkinsfile
+|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
 -'  9  12  ~/jenkins/Jenkinsfile
 |4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
 -'  1  0  ~/jenkins/Jenkinsfile
 |4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
+-'  1  0  ~/jenkins/Jenkinsfile
+|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
+-'  1  0  ~/jenkins/Jenkinsfile
+|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
+-'  1  14  ~/html/test.html
+|4,39,1,14,1652081947,"~/html/test.html"
 -'  1  14  ~/html/test.html
 |4,39,1,14,1652081947,"~/html/test.html"
 -'  1  14  ~/html/test.html
@@ -43,11 +127,18 @@
 # History of marks within files (newest to oldest):
 
 > ~/jenkins/Jenkinsfile
-	*	1652143757	0
-	"	9	12
-	^	9	13
-	.	8	84
-	+	8	84
+	*	1652146318	0
+	"	11	42
+	^	11	43
+	.	11	43
+	+	1	84
+	+	1	10
+	+	15	0
+	+	11	43
+
+> ~/jenkins/make.sh
+	*	1652144177	0
+	"	5	0
 
 > ~/html/test.html
 	*	1652081946	0

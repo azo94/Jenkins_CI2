@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1652834987,,"wq"
+|2,0,1652836218,,"wq"
+:ㅈㅂ
+|2,0,1652836211,,"ㅈㅂ"
 :q
 |2,0,1652144177,,"q"
 
@@ -43,40 +45,54 @@
 |3,0,2,1,1,0,1652144184,"                //archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true //"
 
 # File marks:
-'0  26  0  ~/jenkins/Jenkinsfile
-|4,48,26,0,1652834987,"~/jenkins/Jenkinsfile"
-'1  1  13  ~/html/test_2.html
-|4,49,1,13,1652834532,"~/html/test_2.html"
-'2  10  34  ~/jenkins/Jenkinsfile
-|4,50,10,34,1652146531,"~/jenkins/Jenkinsfile"
-'3  10  34  ~/jenkins/Jenkinsfile
-|4,51,10,34,1652146531,"~/jenkins/Jenkinsfile"
-'4  12  42  ~/jenkins/Jenkinsfile
-|4,52,12,42,1652146319,"~/jenkins/Jenkinsfile"
-'5  12  42  ~/jenkins/Jenkinsfile
-|4,53,12,42,1652146319,"~/jenkins/Jenkinsfile"
-'6  11  42  ~/jenkins/Jenkinsfile
-|4,54,11,42,1652146319,"~/jenkins/Jenkinsfile"
-'7  11  42  ~/jenkins/Jenkinsfile
-|4,55,11,42,1652146319,"~/jenkins/Jenkinsfile"
-'8  1  12  ~/jenkins/Jenkinsfile
-|4,56,1,12,1652144186,"~/jenkins/Jenkinsfile"
-'9  8  12  ~/jenkins/Jenkinsfile
-|4,57,8,12,1652144186,"~/jenkins/Jenkinsfile"
+'0  28  5  ~/jenkins/Jenkinsfile
+|4,48,28,5,1652836218,"~/jenkins/Jenkinsfile"
+'1  31  0  ~/jenkins/Jenkinsfile
+|4,49,31,0,1652834987,"~/jenkins/Jenkinsfile"
+'2  26  0  ~/jenkins/Jenkinsfile
+|4,50,26,0,1652834987,"~/jenkins/Jenkinsfile"
+'3  1  13  ~/html/test_2.html
+|4,51,1,13,1652834532,"~/html/test_2.html"
+'4  10  34  ~/jenkins/Jenkinsfile
+|4,52,10,34,1652146531,"~/jenkins/Jenkinsfile"
+'5  10  34  ~/jenkins/Jenkinsfile
+|4,53,10,34,1652146531,"~/jenkins/Jenkinsfile"
+'6  10  34  ~/jenkins/Jenkinsfile
+|4,54,10,34,1652146531,"~/jenkins/Jenkinsfile"
+'7  10  34  ~/jenkins/Jenkinsfile
+|4,55,10,34,1652146531,"~/jenkins/Jenkinsfile"
+'8  12  42  ~/jenkins/Jenkinsfile
+|4,56,12,42,1652146319,"~/jenkins/Jenkinsfile"
+'9  12  42  ~/jenkins/Jenkinsfile
+|4,57,12,42,1652146319,"~/jenkins/Jenkinsfile"
 
 # Jumplist (newest first):
+-'  28  5  ~/jenkins/Jenkinsfile
+|4,39,28,5,1652836218,"~/jenkins/Jenkinsfile"
+-'  31  0  ~/jenkins/Jenkinsfile
+|4,39,31,0,1652835616,"~/jenkins/Jenkinsfile"
 -'  26  0  ~/jenkins/Jenkinsfile
 |4,39,26,0,1652834987,"~/jenkins/Jenkinsfile"
+-'  10  34  ~/jenkins/Jenkinsfile
+|4,39,10,34,1652834542,"~/jenkins/Jenkinsfile"
 -'  10  34  ~/jenkins/Jenkinsfile
 |4,39,10,34,1652834542,"~/jenkins/Jenkinsfile"
 -'  1  13  ~/html/test_2.html
 |4,39,1,13,1652834532,"~/html/test_2.html"
 -'  1  13  ~/html/test_2.html
 |4,39,1,13,1652834532,"~/html/test_2.html"
+-'  1  13  ~/html/test_2.html
+|4,39,1,13,1652834532,"~/html/test_2.html"
+-'  1  13  ~/html/test_2.html
+|4,39,1,13,1652834532,"~/html/test_2.html"
 -'  10  34  ~/jenkins/Jenkinsfile
 |4,39,10,34,1652146531,"~/jenkins/Jenkinsfile"
 -'  10  34  ~/jenkins/Jenkinsfile
 |4,39,10,34,1652146531,"~/jenkins/Jenkinsfile"
+-'  12  42  ~/jenkins/Jenkinsfile
+|4,39,12,42,1652146508,"~/jenkins/Jenkinsfile"
+-'  11  42  ~/jenkins/Jenkinsfile
+|4,39,11,42,1652146508,"~/jenkins/Jenkinsfile"
 -'  12  42  ~/jenkins/Jenkinsfile
 |4,39,12,42,1652146508,"~/jenkins/Jenkinsfile"
 -'  11  42  ~/jenkins/Jenkinsfile
@@ -97,6 +113,8 @@
 |4,39,1,12,1652146286,"~/jenkins/Jenkinsfile"
 -'  1  12  ~/jenkins/Jenkinsfile
 |4,39,1,12,1652146286,"~/jenkins/Jenkinsfile"
+-'  1  12  ~/jenkins/Jenkinsfile
+|4,39,1,12,1652146286,"~/jenkins/Jenkinsfile"
 -'  8  12  ~/jenkins/Jenkinsfile
 |4,39,8,12,1652144186,"~/jenkins/Jenkinsfile"
 -'  8  12  ~/jenkins/Jenkinsfile
@@ -107,6 +125,72 @@
 |4,39,8,12,1652144186,"~/jenkins/Jenkinsfile"
 -'  8  12  ~/jenkins/Jenkinsfile
 |4,39,8,12,1652144186,"~/jenkins/Jenkinsfile"
+-'  8  12  ~/jenkins/Jenkinsfile
+|4,39,8,12,1652144186,"~/jenkins/Jenkinsfile"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
+-'  5  0  ~/jenkins/make.sh
+|4,39,5,0,1652144177,"~/jenkins/make.sh"
 -'  5  0  ~/jenkins/make.sh
 |4,39,5,0,1652144177,"~/jenkins/make.sh"
 -'  5  0  ~/jenkins/make.sh
@@ -183,99 +267,17 @@
 |4,39,1,0,1652144175,"~/jenkins/make.sh"
 -'  1  0  ~/jenkins/make.sh
 |4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  1  0  ~/jenkins/make.sh
-|4,39,1,0,1652144175,"~/jenkins/make.sh"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  9  12  ~/jenkins/Jenkinsfile
-|4,39,9,12,1652143757,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  0  ~/jenkins/Jenkinsfile
-|4,39,1,0,1652143676,"~/jenkins/Jenkinsfile"
--'  1  14  ~/html/test.html
-|4,39,1,14,1652081947,"~/html/test.html"
--'  1  14  ~/html/test.html
-|4,39,1,14,1652081947,"~/html/test.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/jenkins/Jenkinsfile
-	*	1652834987	0
-	"	26	0
-	^	26	1
-	.	22	19
+	*	1652836215	0
+	"	28	5
+	^	27	116
+	.	27	115
 	+	1	84
 	+	1	10
-	+	26	0
+	+	31	0
 	+	12	43
 	+	10	34
 	+	5	19
@@ -285,13 +287,19 @@
 	+	11	1
 	+	10	16
 	+	12	35
-	+	19	1
-	+	18	5
-	+	16	12
-	+	17	26
-	+	24	1
-	+	23	4
-	+	22	19
+	+	22	1
+	+	21	5
+	+	17	12
+	+	18	26
+	+	29	1
+	+	28	4
+	+	25	19
+	+	18	27
+	+	26	8
+	+	13	126
+	+	19	84
+	+	26	77
+	+	27	115
 
 > ~/html/test_2.html
 	*	1652834532	0

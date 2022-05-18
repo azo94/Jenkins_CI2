@@ -2,14 +2,25 @@ pipeline {
     agent any
 
     stages {
-        stage('Test') {
+        stage('Build') {
             steps {
                 /* `make check` returns non-zero on test failures,
                 * using `true` to allow the Pipeline to continue nonetheless
                 */
-                sh 'jenkins/make.sh check || true'  // 1 //
-                // junit '**/target/*.xml'  2 //
+                
+		sh 'jenkins/make.sh check || true'  // 1 //
+                echo 'Building ....'
             }
         }
+	stage('Test'){
+	    steps {
+	          echo 'Testing..'
+ 	    }
+	}
+	stage('Deploy') {
+	    steps {
+		echo 'Deploying..'
+	    }
+	}
     }
 }
